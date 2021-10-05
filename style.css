@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    background: linear-gradient(#a8a032 0%,#3281a8 100%)
+}
+
+h1 {
+    text-shadow: 1px 1px #6f4ce0;
+    font-size: 20px;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 42px;
+    background: pink;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 80px;
+    margin: 8px auto;
+}
+
+p {
+    font-size: 25px;
+    color:#c2c21b ;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: centre;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+#myname {
+    font-family: 'Courgette', cursive;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    color: blueviolet;
+}
+#welcome{
+    padding: 70px;
+    width: 100%;
+    height: 100%;
+}
+.links{
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+}
+.profile{
+    border-radius: 50%
+}
+img:hover{
+    transform: scale(0.9);
+}
